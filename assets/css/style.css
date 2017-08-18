@@ -1,0 +1,19 @@
+
+h1{
+	color: white;
+}
+
+header{
+	width:300px;
+	height:80px;
+	background:#4aaaa5;
+    margin:0;
+    padding: 3px;
+}
+
+.AboutMe{
+	width:1500px;
+	height:480px;
+	padding: 10px
+	background:#4aaaa5;
+}
