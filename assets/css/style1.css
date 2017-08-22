@@ -1,0 +1,104 @@
+body{
+	margin:20px;
+	padding:0;
+	background-color: #ffffcc; /*change to ff*/
+	font-color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: relative;
+	padding-bottom:20px;
+	width:960px;
+	text-align: left;
+}
+
+
+
+.container{
+	border:5px solid brown;
+	margin:auto;
+	padding: auto;
+}
+.headerNav{
+	border:4px solid red;
+
+}
+
+header{
+	width: 40%;
+	background-color: #4aaaa5;
+	color:white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border: 1px solid #cccccc;
+	z-index: 2;
+	border:1px solid black;
+
+}
+
+nav{
+	z-index: 1;
+	border:1px solid black;
+
+
+}
+
+#menu{
+
+}
+
+.mainContent{
+
+   border:3px solid green;
+   overflow: auto;
+
+  }
+
+.myMain{
+	width: 300px;
+	padding:20px;
+	margin:25px;
+
+}
+
+section{
+ 
+
+}
+
+img{
+
+border:1px solid black
+}
+
+
+.float-img{
+float:left;
+
+}
+
+.connectWithMe{
+clear:both;
+display:block;
+border:6px solid blue;
+}
+
+h2{
+	color:#4aaaa5;
+	border:1px solid black;
+}
+
+
+p
+{
+float:left;
+border:1px solid black;
+}
+
+aside{
+	clear: both;
+}
+
+footer{
+	position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:20px;
+    border:1px solid black;
+}
