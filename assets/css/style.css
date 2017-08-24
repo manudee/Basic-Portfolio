@@ -1,0 +1,145 @@
+body {
+
+	background-image: url('./assets/images/backgruond-texture.jpg');
+	background-repeat: repeat;
+
+}
+
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color:green;
+	border: 1px solid #dddddd;
+	height: 615px;
+
+}
+
+.mainTop{
+	margin: 0 auto;
+	width: 960px;
+	height: 80px;
+	border-bottom: solid 1px #dddddd;
+	position:relative;
+	background: yellow;
+	
+
+}
+
+header{
+	position: absolute;
+	background: #4aaaa5;
+	color: white;
+	left: 30px;
+	bottom: 0;
+	height: 50px;
+	font-size: 40px;
+	padding:10px;
+	
+}	
+
+nav{
+	
+	position: absolute;
+	right:60px;
+	bottom: 0;
+	color:#666460;
+	
+
+}
+
+.links{
+	padding:10px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+a:hover{
+	 background-color: red;
+}
+
+
+.middleSection{
+	margin:0 auto;
+	background: pink;
+	border-bottom: solid 1px #dddddd;
+	position: relative;
+
+
+
+	
+}
+
+section{
+	background: blue;
+	float: left;
+	width: 550px;
+	height: 400px;
+	position: absolute;
+	top:34px;
+	left: 32px;
+	padding-left: 10px;
+	margin-right: 10px;
+	clear: both;
+}
+
+aside{
+	background: red;
+	float: left;
+	width: 20%;
+	height:100px;
+	position: absolute;
+	top:34px;
+	right:80px;
+	padding-left: 10px;
+	margin-right: 10px;
+
+
+
+}
+
+
+
+
+h2{
+	font-size:1.2em;
+	line-height: 1;
+	border-bottom: solid 1px #dddddd;
+
+}
+
+.inClassAside{
+	text-align: center;
+
+}
+
+.asideImg {
+margin-left: 5px;
+margin-top:5px;
+
+}
+
+.floatImg{
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+
+
+footer{
+	clear: both;
+	border-top: solid 3px #4aaaa5;
+	background-color: gray;
+	margin: 0 auto;
+	height:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	color:white;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+

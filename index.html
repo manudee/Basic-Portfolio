@@ -2,41 +2,50 @@
 <html>
 <head>
 	<title>Manasi's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
 <body>
 
-<div>
-<div>
-	<header>
-	<h1> Manasi Sukthankar</h1>
-	</header>
-</div> <!--div for header ends-->
-<div>
-	<nav>
-		<a href="index.html">About</a>|
-		<a href="portfolio.html">Portolio</a>|
-		<a href="contact.html">Contact</a>
-	</nav>
-</div> <!--div for nav ends-->
-</div> <!--div for main top content ends-->
+<div class="wrapper">
 
-<div> <!--div for main content-->
+  <div class="mainTop">
+	<header>
+		<h1>Manasi Sukthankar</h1>
+	</header>
+
+
+	<nav>
+	  <a class="links" href="index.html">About</a>|
+	  <a class="links" href="portfolio.html">Portolio</a>|<a class="links" href="contact.html">Contact</a>
+	</nav>
+
+  </div><!--div for main top content ends-->
+
+<div class="middleSection"> <!--div for main content-->
+
 	<section><!--section for main content-->
 		<h2>About Me</h2>
-		<img src="./assets/images/IMG_2825.JPG" alt=Manasi width=200>
-		<p>Totem poles are monumental sculptures, a type of Northwest Coast art, consisting of poles, posts or pillars, carved with symbols or figures. They are usually made from large trees, mostly western red cedar, by indigenous peoples of the Pacific Northwest coast of North America (Washington, Oregon, and Canada's western province, British Columbia). The word totem derives from the Algonquian (most likely Ojibwe) word odoodem [oˈtuːtɛm], "his kinship group". The carvings may symbolize or commemorate cultural beliefs that recount familiar legends, clan lineages, or notable events. The poles may also serve as functional architectural features, welcome signs for village visitors, mortuary vessels for the remains of deceased ancestors, or as a means to publicly ridicule someone. Given the complexity and symbolic meanings of totem pole carvings, their placement and importance lies in the observer's knowledge and connection to the meanings of the figures.</p>
+		
+			<img src="./assets/images/IMG_2825.JPG" alt=Manasi width=200 class="floatImg">
+		
+			<p>Totem poles are monumental sculptures, a type of Northwest Coast art, consisting of poles, posts or pillars, carved with symbols or figures. They are usually made from large trees, mostly western red cedar, by indigenous peoples of the Pacific Northwest coast of North America (Washington, Oregon, and Canada's western province, British Columbia). The word totem derives from the Algonquian (most likely Ojibwe) word odoodem [oˈtuːtɛm], "his kinship group". The carvings may symbolize or commemorate cultural beliefs that recount familiar legends, clan lineages, or notable events. The poles may also serve as functional architectural features, welcome signs for village visitors, mortuary vessels for the remains of deceased ancestors, or as a means to publicly ridicule someone. Given the complexity and symbolic meanings of totem pole carvings, their placement and importance lies in the observer's knowledge and connection to the meanings of the figures.</p>
+		
 	</section><!--section for main content ends here-->
-	<aside><!--Connect with me section in the aside-->
-		<h2>Connect with me</h2>
 
-			<img src="./assets/images/github.png" alt=github width=50>
-			<img src="./assets/images/linkedin.png" alt=linkedin width=50>
-			<img src="./assets/images/facebook.png" alt=facebook width=50>
+	<aside><!--Connect with me section in the aside-->
+		<h2 class=inClassAside>Connect with me</h2>
+
+			<img src="./assets/images/github.png" alt=github width=50 class="asideImg">
+			<img src="./assets/images/linkedin.png" alt=linkedin width=50 class="asideImg">
+			<img src="./assets/images/facebook.png" alt=facebook width=50 class="asideImg">
 	</aside><!--aside with Connect with me ends-->
+
+
 </div>
-<footer>©Copyright 2017 Manasi Sukthankar</footer>
+<footer><strong>©Copyright 2017 Manasi Sukthankar</strong></footer>
 </body>
 
 </html>
