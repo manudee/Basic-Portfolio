@@ -1,0 +1,94 @@
+body{
+	background-image: url('background-texture.jpg');
+	background-repeat: repeat;
+	
+
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	position: relative;
+	height: 100px
+
+
+}
+
+
+
+header{
+	position: absolute;
+	left:30px;
+	bottom: 0;
+	background-color: teal;
+	color: white;
+	font-size: 2.5em;
+
+}
+
+
+nav{
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+
+}
+
+.links{
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+div{
+	background-color: green;
+}
+
+section{
+	position: absolute;
+	top: 120px;
+	left:30px;
+
+}
+
+aside{
+	position: absolute;
+	top: 120px;
+	right: 30px;
+	background-color: yellow;
+}
+
+footer{
+	position: absolute;
+	background: gray;
+	left: 350px;
+	top:1100px;
+	height: 30px;
+
+
+}
+
+
+.floatImg{
+	float: left;
+	margin-right: 10px;
+
+}
+
+
+
+h2{
+	font-size: 1.5em;
+
+	}
+
+/* Added for portfolio html*/
+
+
+.portImage{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+

@@ -2,40 +2,52 @@
 <html>
 <head>
 	<title>Contact Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-<div> <!--div for header-->
-	<header>
-	<h1> Manasi Sukthankar</h1>
-	</header>
-</div> <!--div for header ends-->
+<div class="wrapper">
 
-<div> <!--div for page content-->
+  <div class="mainTop">
+	<header>
+		<h1>Manasi Sukthankar</h1>
+	</header>
+
+
+	<nav>
+	  <a class="links" href="index.html">About</a>|
+	  <a class="links" href="portfolio.html">Portolio</a>|<a class="links" href="contact.html">Contact</a>
+	</nav>
+
+  </div><!--div for main top content ends-->
+
+<div class="middleSection"> <!--div for main content-->
 	<section> <!--section for contact form-->
 	  <h2>Contact</h2>
-		<form>
-			Name:<br>
-  			<input type="text" name="Name"><br>
-  			Email:<br>
-  			<input type="text" name="Email"><br>
-  			Message:<br>
-  			<textarea name="message" rows="10" cols="30">
-  			</textarea><br>
+		<form class="form">
+		<br>
+			Name:<br><br>
+  			<input type="text" name="Name" class="fields"><br><br>
+  			Email:<br><br>
+  			<input type="text" name="Email" class="fields"><br><br>
+  			Message:<br><br>
+  			<textarea name="message" rows="10" cols="30" >
+  			</textarea><br><br>
   			<input type="submit" value="Submit">
 		</form>
 	</section>
 	<aside><!--Connect with me section in the aside-->
-		<h2>Connect with me</h2>
-
-			<img src="./assets/images/github.png" alt=github width=50>
-			<img src="./assets/images/linkedin.png" alt=linkedin width=50>
-			<img src="./assets/images/facebook.png" alt=facebook width=50>
+		<h2 class=inClassAside>Connect with me</h2>
+		  
+			<img src="./assets/images/github.png" alt=github width=50 class="asideImg">
+			<img src="./assets/images/linkedin.png" alt=linkedin width=50 class="asideImg">
+			<img src="./assets/images/facebook.png" alt=facebook width=50 class="asideImg">
 	</aside><!--aside with Connect with me ends-->
+	<footer>©Copyright 2017 Manasi Sukthankar</footer>
 </div> <!--div for page content ends here-->
 
 
-<footer>©Copyright 2017 Manasi Sukthankar</footer>
+
 </body>
 </html>

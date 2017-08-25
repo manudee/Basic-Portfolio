@@ -1,8 +1,8 @@
 body {
 
-	background-image: url('./assets/images/backgruond-texture.jpg');
+	background-image: url('../images/background.png');
 	background-repeat: repeat;
-
+	
 }
 
 
@@ -21,7 +21,8 @@ body {
 	height: 80px;
 	border-bottom: solid 1px #dddddd;
 	position:relative;
-	background: yellow;
+
+	background: #ffffff;/* was yellow before*/
 	
 
 }
@@ -56,36 +57,38 @@ nav{
 }
 
 a:hover{
-	 background-color: red;
+	 background-color: lightblue;
 }
+
+
+a.links, .asideImg, .portImage{ cursor: pointer; }
 
 
 .middleSection{
 	margin:0 auto;
-	background: pink;
+	background: #ffffff;/*was pink before*/
 	border-bottom: solid 1px #dddddd;
 	position: relative;
-
-
-
-	
+	height: 700px;
 }
 
 section{
-	background: blue;
+	background: #ffffff; /*was blue before*/
 	float: left;
-	width: 550px;
-	height: 400px;
+	width: 555px;
+	height: 550px;
 	position: absolute;
 	top:34px;
 	left: 32px;
 	padding-left: 10px;
 	margin-right: 10px;
 	clear: both;
+	padding-right: 10px;
+	border: solid 1px #dddddd;
 }
 
 aside{
-	background: red;
+	background: #ffffff; /*was red before*/
 	float: left;
 	width: 20%;
 	height:100px;
@@ -94,6 +97,7 @@ aside{
 	right:80px;
 	padding-left: 10px;
 	margin-right: 10px;
+	border: solid 1px #dddddd;
 
 
 
@@ -106,6 +110,7 @@ h2{
 	font-size:1.2em;
 	line-height: 1;
 	border-bottom: solid 1px #dddddd;
+	margin-top:20px;
 
 }
 
@@ -118,13 +123,29 @@ h2{
 margin-left: 5px;
 margin-top:5px;
 
+
 }
 
 .floatImg{
 	float: left;
-	padding: 0 20px 20px 0;
+	padding: 0 10px 10px 0;
 }
 
+
+.portImage{
+	float: left;
+	padding: 5px 35px 5px 35px;
+
+}
+
+.form{
+	width: 555px;
+}
+
+.fields{
+	width: 550px;
+
+}
 
 
 footer{
