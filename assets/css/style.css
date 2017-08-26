@@ -56,11 +56,12 @@ nav{
 
 }
 
-a:hover{
+
+
+a.links:hover{
 	 background-color: lightblue;
 }
 
-a.links, .asideImg, .portImage{ cursor: pointer; }
 
 
 .middleSection{
@@ -120,12 +121,14 @@ h2{
 }
 
 #h2margin{
-	margin-bottom:  30px;
+	padding-bottom:  10px;
 	border-bottom: solid 3px #dddddd;
+	
 }
 
 .inClassAside{
 	text-align: center;
+	padding-bottom:  10px;
 
 }
 
