@@ -91,14 +91,14 @@ aside{
 	background: #ffffff; /*was red before*/
 	float: left;
 	width: 20%;
-	height:100px;
+	height:120px;
 	position: absolute;
 	top:34px;
 	right:160px;
 	padding-left: 10px;
 	margin-right: 10px;
 	border: solid 1px #dddddd;
-
+	
 
 
 }
@@ -109,7 +109,7 @@ aside{
 h2{
 	font-size:1.2em;
 	line-height: 1;
-	border-bottom: solid 1px #dddddd;
+	border-bottom: solid 2px #dddddd;
 	margin-top:20px;
 
 }
@@ -120,8 +120,9 @@ h2{
 }
 
 .asideImg {
-margin-left: 5px;
+margin-left: 25px;
 margin-top:5px;
+
 
 
 }
