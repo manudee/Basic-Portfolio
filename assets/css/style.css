@@ -22,7 +22,7 @@ body {
 	border-bottom: solid 1px #dddddd;
 	position:relative;
 	background: #ffffff;/* was yellow before*/
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 
 }
 
@@ -70,6 +70,7 @@ a.links, .asideImg, .portImage{ cursor: pointer; }
 	position: relative;
 	height: 700px;
 
+
 }
 
 section{
@@ -85,6 +86,7 @@ section{
 	clear: both;
 	padding-right: 10px;
 	border: solid 1px #dddddd;
+
 }
 
 aside{
@@ -103,15 +105,23 @@ aside{
 
 }
 
-
-
+button{
+	background-color:  teal;
+	color: white;
+}
 
 h2{
-	font-size:1.2em;
+	font-size:1.5em;
 	line-height: 1;
-	border-bottom: solid 2px #dddddd;
+	border-bottom: solid 1px #dddddd;
 	margin-top:20px;
+	color: teal;
 
+}
+
+#h2margin{
+	margin-bottom:  30px;
+	border-bottom: solid 3px #dddddd;
 }
 
 .inClassAside{
@@ -123,9 +133,15 @@ h2{
 margin-left: 25px;
 margin-top:5px;
 
+}
 
+
+.txtoverimg{
+	position: relative;
 
 }
+
+
 
 .floatImg{
 	float: left;
@@ -136,7 +152,67 @@ margin-top:5px;
 .portImage{
 	float: left;
 	padding: 5px 35px 5px 35px;
+	
+	
+}
 
+#text1{
+	position: absolute;
+	top:100px;
+	left:35px;
+	padding-right: 86px;
+	padding-left: 72px;
+	background-color: teal;
+	height: 30px;
+	color: #ffffff;
+	font-size:1.2em;
+}
+
+#text2{
+	position: absolute;
+	top:100px;
+	left:305px;
+	padding-right: 93px;
+	padding-left: 65px;
+	background-color: teal;
+	height: 30px;
+	color: #ffffff;
+	font-size:1.2em;
+}
+
+#text3{
+	position: absolute;
+	top:260px;
+	left:35px;
+	padding-right: 86px;
+	padding-left: 72px;
+	background-color: teal;
+	height: 30px;
+	color: #ffffff;
+	font-size:1.2em;
+}
+
+#text4{
+	position: absolute;
+	top:260px;
+    left:305px;
+	padding-right: 93px;
+	padding-left: 65px;
+	background-color: teal;
+	height: 30px;
+	color: #ffffff;
+	font-size:1.2em;
+}
+#text5{
+	position: absolute;
+	top:420px;
+	left:35px;
+	padding-right: 86px;
+	padding-left: 72px;
+	background-color: teal;
+	height: 30px;
+	color: #ffffff;
+	font-size:1.2em;
 }
 
 .form{
