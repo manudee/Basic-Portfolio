@@ -5,25 +5,24 @@ body {
 	
 }
 
-
+/*
 .wrapper{
 	width: 960px;
 	margin: 0 auto;
-	background-color:green;
+	
 	border: 1px solid #dddddd;
 	height: 615px;
-
+	
 }
-
+*/
 .mainTop{
 	margin: 0 auto;
-	width: 960px;
+	width: 100%;
 	height: 80px;
 	border-bottom: solid 1px #dddddd;
 	position:relative;
-
 	background: #ffffff;/* was yellow before*/
-	
+	margin-bottom: 10px;
 
 }
 
@@ -31,7 +30,7 @@ header{
 	position: absolute;
 	background: #4aaaa5;
 	color: white;
-	left: 30px;
+	left: 180px;
 	bottom: 0;
 	height: 50px;
 	font-size: 40px;
@@ -42,9 +41,10 @@ header{
 nav{
 	
 	position: absolute;
-	right:60px;
+	right:160px;
 	bottom: 0;
 	color:#666460;
+	padding-bottom: 20px;
 	
 
 }
@@ -60,16 +60,16 @@ a:hover{
 	 background-color: lightblue;
 }
 
-
 a.links, .asideImg, .portImage{ cursor: pointer; }
 
 
 .middleSection{
 	margin:0 auto;
-	background: #ffffff;/*was pink before*/
+	/*background: #ffffff*/;/*was pink before*/
 	border-bottom: solid 1px #dddddd;
 	position: relative;
 	height: 700px;
+
 }
 
 section{
@@ -79,7 +79,7 @@ section{
 	height: 550px;
 	position: absolute;
 	top:34px;
-	left: 32px;
+	left: 180px;
 	padding-left: 10px;
 	margin-right: 10px;
 	clear: both;
@@ -94,7 +94,7 @@ aside{
 	height:100px;
 	position: absolute;
 	top:34px;
-	right:80px;
+	right:160px;
 	padding-left: 10px;
 	margin-right: 10px;
 	border: solid 1px #dddddd;
@@ -157,7 +157,7 @@ footer{
 	padding-top:20px;
 	padding-bottom: 20px;
 	color:white;
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	position: absolute;
