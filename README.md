@@ -6,3 +6,16 @@ Here I am building my professional portfolio site using HTML and CSS. You will f
 3. Contact Page
 
 The portfolio is built using pure HTML and CSS and no bootstrap at this point.
+
+# Built With
+  * html
+  * css
+  
+ 
+ 
+# Preview
+# ![GitHub Logo](assets/images/HangMan.JPG)
+
+
+# Author
+Manasi Sukthankar
